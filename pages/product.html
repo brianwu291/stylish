@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/products/product-web.css">
+  <link rel="stylesheet" href="../css/products/product-mobile.css">
+  <link rel="Shortcut Icon" type="image/x-icon" href="../images/main_icon.ico"/>
+  <title>Stylish</title>
+</head>
+<body>
+  <script src="../js/facebookLogin/sdk.js"></script>
+  <script src="../js/facebookLogin/statusChangeCallback.js"></script>
+  <script src="../js/facebookLogin/testAPI.js"></script>
+  <div class="container">
+    <header>
+      <div class="header-wrapper">
+        <div class="navbar">
+          <div class="logo-and-category">
+            <div class="logo">
+              <a href="index.html">
+                <img src="../images/logo/logo.png" alt="logo"/>
+              </a>
+            </div>
+            <div class="category">
+              <a href="index.html?category=women" class="women-item">女裝</a>
+              <a href="index.html?category=men" class="man-item">男裝</a>
+              <a href="index.html?category=accessory" class="accessory-item">配件</a>
+            </div>
+          </div>
+          <div class="search-and-cart-member">
+            <div class="search">
+              <form action="index.html" class="search-form">
+                <input class="input" type="text" name="search"/>
+              </form>
+            </div>
+            <div class="cart-and-member">
+              <div class="cart-icon">
+                <a href="cart.html">
+                  <div>
+                    <img src="../images/cart/cart.png" alt="cart"/>
+                    <span class="cart-none">0</span>
+                  </div>
+                </a>
+              </div>
+              <div class="member-icon">
+                <button>
+                  <a href="profile.html">
+                    <img src="../images/member/member.png" alt="member-icon"/>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="mobile-search-icon">
+            <img src="../images/search.png" alt=""/>
+          </button>
+        </div>
+        <div class="hide">
+          <form action="index.html" class="search-form">
+            <input class="input" type="text" name="search"/>
+          </form>
+          <span class="close-search-input"><button>X</a></button>
+        </div>
+      </div>
+    </header>
+    <div class="black-blank">
+      <div class="mobile-category">
+        <a href="index.html?category=women" class="women-item">女裝</a>
+        <a href="index.html?category=men" class="man-item">男裝</a>
+        <a href="index.html?category=accessory" class="accessory-item">配件</a>
+      </div>  
+    </div>
+    <section class="product content">
+      <div class="flex-column">
+      </div>
+      <div class="product-info">
+        <div class="main-img">
+        </div>
+        <div class="product-info-detail">
+          <div class="name-id-price">
+          </div>
+          <div class="color-size-quantity">
+            <div class="choose-color">
+              <p class="color-title">顏色</p>
+              <div class="color-group">
+              </div>
+            </div>
+            <div class="choose-size">
+              <p class="size-title">尺寸</p>
+              <div class="size-group">
+              </div>
+            </div>
+            <div class="choose-quantity">
+              <p class="quantity-title">數量</p>
+              <div class="quantity-group">
+                <span class="minus">
+                  <button id="minus-btn">-</button>
+                </span>
+                <input id='quantity-input' type="number" min="1" readonly="readonly"/>
+                <span class="plus">
+                    <button id="plus-btn">+</button>
+                </span>
+              </div>
+            </div>
+            <div class="reminder">
+              <button class="add-to-cart" disabled>請選擇顏色和尺寸</button>
+            </div>
+          </div>
+          <div class="product-note">
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-detail-description">
+        <div class="seperate-part">
+          <p class="detail-title">細部說明</p>
+          <div class="seperate-line"></div>
+        </div>
+        <div class="detail-first-part">
+          <p class="detail-text"></p>
+        </div>
+        <div class="detail-second-part">
+            <p class="detail-text"></p>
+          </div>
+      </div>
+    </section>
+    <footer class="web-footer">
+      <div class="footer-wrapper">
+        <div class="information">
+          <a href="#" class="info about-us">關於 Stylish</a>
+          <a href="#" class="info service-term">服務條款</a>
+          <a href="#" class="info privite-term">隱私政策</a>
+          <a href="#" class="info contact-us">聯絡我們</a>
+          <a href="#" class="faq">FAQ</a>
+        </div>
+        <div class="social-media-icon">
+          <a class="line" href="#">
+            <img src="../images/social/line.png" alt="line icon" />
+          </a>
+          <a class="twitter" href="#">
+            <img src="../images/social/twitter.png" alt="twitter icon" />
+          </a>
+          <a class="facebook" href="#">
+            <img src="../images/social/facebook.png" alt="facebook icon" />
+          </a>
+        </div>
+        <p class="copy-right">© 2018. All rights reserved.</p>
+      </div>
+    </footer>
+    <footer class="mobile-footer">
+        <div class="footer-wrapper">
+          <div class="mobile-information">
+            <div class="information-1">
+              <a href="#" class="info about-us">關於 Stylish</a>
+              <a href="#" class="info service-term">服務條款</a>
+              <a href="#" class="info privite-term">隱私政策</a>
+            </div>
+            <div class="information-2">
+              <a href="#" class="info contact-us">聯絡我們</a>
+              <a href="#" class="faq">FAQ</a>
+            </div>
+          </div>
+          <div class="social-media-icon">
+            <a class="line" href="#">
+              <img src="../images/social/line.png" alt="mobile-line" />
+            </a>
+            <a class="twitter" href="#">
+              <img src="../images/social/twitter.png" alt="mobile-twitter" />
+            </a>
+            <a class="facebook" href="#">
+              <img src="../images/social/facebook.png" alt="mobile-facebook" />
+            </a>
+          </div>
+        </div>
+        <p class="copy-right">© 2018. All rights reserved.</p>
+      </footer>
+    <div class="mobile-cart-and-member">
+      <div class="mobile-cart-icon">
+        <a href="cart.html">
+          <div>
+            <img src="../images/cart/cart-mobile.png" alt="mobile-cart"/>
+            <span class="cart-none">0</span>
+            <p>購物車</p>
+          </div>
+        </a>
+      </div>
+      <div class="divide-line"></div>
+      <div class="mobile-member-icon">
+        <button>
+          <a href="profile.html">
+            <img src="../images/member/member-mobile.png" alt="mobile-member"/>
+            <p>會員</p>
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="../js/rwdEffect/index.js"></script>
+  <script src="../js/api/index.js"></script>
+  <script src="../js/productPage/productDetail/index.js"></script>
+  <script src="../js/productPage/productDetail/showDetails.js"></script>
+  <script src="../js/productPage/productDetail/createElement.js"></script>
+  <script src="../js/productPage/categoryChoose/index.js"></script>
+</body>
+</html>

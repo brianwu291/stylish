@@ -1,0 +1,733 @@
+@media(max-width: 1180px){
+  /* navbar */
+  .logo-and-category{
+    margin-left: auto;
+    padding-left: 3rem;
+  }
+  .logo{
+    margin: auto;
+  }
+  .category, .search-and-cart-member{
+    display: none;
+  }
+  .mobile-search-icon{
+    display: block;
+    height: fit-content;
+    margin: 25px 10px 0px auto ;
+  }
+  .hide{
+    display: none;
+  }
+  .search-form-popup{
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+  }
+  .search-form{
+    margin-right: 20px;
+  }
+  .close-search-input{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .close-search-input button{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 7px;
+    padding-top: 5px;
+  }
+
+  /* category */
+  .black-blank{
+    height: 50px;
+    align-items: center;
+  }
+  .mobile-category{
+    display: flex;
+    width: 100%;
+    max-width: 362px;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .mobile-category a{
+    color: #828282;
+    font-size: 17px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    text-decoration: none
+  }
+  .mobile-category a:hover{
+    color: #ffffff;
+  }
+  .mobile-category .women-item::after, .mobile-category .man-item::after{
+    content: '';
+    color: #828282;
+    height: 20px;
+    border-right: 1px solid #828282;
+    position: relative;
+    left: 1.5%;
+  }
+
+  /* 美化商品列表 */
+.product-lists, .cart-title, .product-detail, .product-item{
+  max-width: 312px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.product-detail{
+  height: inherit;
+  border: none;
+}
+.cart{
+  height: 100%;
+  max-width: 360px;
+  width: 100%;
+  margin: auto;
+}
+.cart-title{
+  border-bottom: 1px solid #3f3a3a;
+}
+.cart-title-text{
+  margin-bottom: 10px;
+}
+.product-item{
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #3f3a3a;
+  display: inherit;
+  justify-content: stretch;
+}
+.item-img-and-detail .item-img{
+  max-width: 114px;
+  max-height: 151.519px;
+}
+.cart-title-text{
+  width: fit-content;
+  height: 19px;
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3a3a;
+}
+.item-img-and-detail{
+  display: flex;
+  justify-content: space-between;
+}
+.item-img-and-detail img{
+  width: 114px;
+  height: 151.5px;
+  margin-top: 0px;
+}
+.remove-web{
+  display: none;
+}
+.remove-mobile{
+  display: block;
+  height: fit-content;
+}
+.remove-mobile button{
+  border-style: none;
+  background-color: transparent;
+}
+.remove-mobile img{
+  width: 44px;
+  height: 44px;
+}
+.item-detail{
+  width: 100%;
+  max-width: fit-content;
+  height: 124px;
+  margin: 0 auto 0 10px;
+}
+.detail-title-id{
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3a3a;
+}
+.detail-title-id .title{
+  margin-top: 0px;
+  width: fit-content;
+  height: 17px;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3a3a;
+}
+
+.id{
+  width: 63px;
+  height: 17px;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3a3a;
+  margin-top: 30px;
+}
+.color, .size{
+  width: fit-content;
+  height: 17px;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3a3a;
+  margin-top: 20px;
+
+}
+.quantity-price-sumup{
+  margin-top: 18px;
+  max-width: 312px;
+  width: 100%;
+  display: inherit;
+}
+.web-quantity-price-sumup-title{
+  display: none;
+}
+.quantity-price-sumup .title, .quantity-price-sumup .text{
+  width: 100%;
+  max-width: 312px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quantity-title{
+  margin-left: 25px;
+} 
+.price-title{
+  margin-left: 13px;
+} 
+.sumup-title{
+  margin-right: 10px;
+}
+.quantity-text{
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid 1px #979797;
+  background-color: #f3f3f3;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.799999952316284px;
+  text-align: left;
+  color: #3f3a3a;
+  margin-right: 0;
+}
+.price-text, .sumup-text{
+  width: 46px;
+  height: 17px;
+  font-family: NotoSansCJKtc;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3a3a;
+  margin-right: 0;
+}
+
+  /* 美化 配送資訊欄 */
+  .delivery-and-checkout-way{
+    width: 312px;
+    height: 175px;
+    background-color: #e8e8e8;
+    margin: auto;
+    padding-top: 1px;
+    display: inherit;
+  }
+  .delivery-way, .checkout-way{
+    margin-left: 10px;
+    width: initial;
+    height: initial;
+    display: inherit;
+  }
+  .delivery-text, .checkout-text{
+    width: fit-content;
+    height: 17px;
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+  }
+  .delivery-select, .checkout-select{
+    width: 292px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 1px #979797;
+    background-color: #f3f3f3;
+    font-family: PingFangTC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+    margin-left: 0;
+  }
+  .remind-title{
+    width: 312px;
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8571428571428572;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+  }
+  .remind-p1, .remind-p2{
+    width: 312px;
+    font-family: NotoSansCJKtc;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8571428571428572;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+  }
+  /*注意事項*/
+  .reminder-section{
+    width: 312px;
+    height: 130px;
+    margin: auto;
+    padding-top: 1px;
+  }
+
+  /* 結帳詳細資訊欄 */
+  .checkout-info{
+    width: 312px;
+    height: auto;
+    margin: auto;
+  }
+  .cart-info-title{
+    height: 35px;
+    border-bottom: 0;
+  }
+  .checkout-info-text{
+    max-width: 312px;
+    height: 19px;
+    width: 100%;
+    font-family: NotoSansCJKtc;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+    height: 35px;
+  }
+  .name, .phone-number, .address, .email{
+    display: inherit;
+    padding-top: 0;
+  }
+  .name-text, .phone-text, .address-text, .delivery-time-text, .email-text{
+    width: fit-content;
+    height: 17px;
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+  }
+  .name-input, .phone-input, .address-input, .email-input{
+    width: 312px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 1px #979797;
+    background-color: #ffffff;
+  }
+  .name-remind{
+    width: max-content;
+    height: 17px;
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8b572a;
+    margin-left: 0;
+    margin-top: 7px;
+  }
+  /* 配送時間選取 */
+  .delivery-radio-input{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  .delivery-radio-input input{
+    width: 16px;
+    height: 16px;
+    border: solid 1px #979797;
+    background-color: #ffffff;
+  }
+  .pm2-pm6{
+    margin-left: 26px;
+  } 
+  .random-time{
+    margin-left: 28px;
+  }
+  .am8-am12-text, .pm2-pm6-text, .random-text{
+    width: 75px;
+    height: 26px;
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8571428571428572;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+    margin-left: 6px;
+  }
+  .random-text{
+    width: fit-content;
+  }
+
+  /* 總金額結算、確認結帳 */
+  .total-price-comfirm-button{
+    width: 312px;
+    height: auto;
+    margin: auto;
+    padding-top: 1px;
+  }
+  .product-price, .delivery-tip, .total-price, .final-checkout{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .delivery-tip{
+    border-bottom: 1px solid #3f3a3a;
+    width: 200px;
+    margin: auto;
+    margin-right: 0;
+  }
+  .product-price-title, .delivery-tip-title, .total-price-title{
+    width: 42px;
+    height: 17px;
+    font-family: NotoSansCJKtc;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+    margin-right: 56px;
+  }
+  .delivery-tip-title{
+    margin-right: 90px;
+  }
+  .total-price-title{
+    width: 56px;
+    margin-right: 42px;
+  }
+  .product-price-currency, .delivery-tip-currency, .total-price-currency{
+    width: 26px;
+    height: 19px;
+    font-family: NotoSansCJKtc;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3a3a;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .product-price-text, .delivery-tip-text, .total-price-text{
+    width: 67px;
+    height: 36px;
+    font-family: NotoSansCJKtc;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #3f3a3a;
+  }
+  .delivery-tip-text{
+    width: 34px;
+  }
+  .final-checkout{
+    width: 312px;
+    height: 44px;
+    border: solid 1px black;
+    background-color: black;
+  }
+  .checkout-button{
+    width: -webkit-fill-available;
+    height: 30px;
+    font-family: NotoSansCJKtc;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.875;
+    letter-spacing: 3.200000047683716px;
+    color: #ffffff;
+    background-color: black;
+    border-style: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* cart and member */
+  .mobile-cart-and-member{
+    display: flex;
+    justify-content: center;
+    background-color: #313538;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    bottom: 0;
+  }
+  .mobile-cart-and-member p{
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .mobile-cart-icon, .mobile-member-icon{
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .mobile-cart-icon a, .mobile-member-icon a{
+    display: flex;
+    text-decoration: none;
+  }
+  .mobile-cart-icon img, .mobile-member-icon img{
+    width: 44px;
+    height: 44px;
+    margin: auto 10px;
+  }
+  .divide-line{
+    content: '';
+    color: #828282;
+    height: 35px;
+    border-right: 1px solid #828282;
+    position: relative;
+    top: 15px;
+  }
+  .mobile-cart-icon div{
+    display: flex;
+  }
+  .mobile-cart-icon a{
+    text-decoration: none;
+  }
+  @media (min-width: 750px) {
+    .quantity-in-cart{
+      top: 15px;
+      position: absolute;
+      left: 22%;
+      color: white;
+      max-width: 25px;
+      height: 25px;
+      font-size: 10px;
+      text-align: center;
+      background-color: #EC5252;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+  }
+  @media(max-width: 749px) {
+    .quantity-in-cart{
+      top: 15px;
+      position: absolute;
+      left: 20%;
+      color: white;
+      max-width: 25px;
+      height: 25px;
+      font-size: 10px;
+      text-align: center;
+      background-color: #EC5252;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+  }
+  @media (max-width: 465px) {
+    .quantity-in-cart{
+      top: 15px;
+      position: absolute;
+      left: 15%;
+      color: white;
+      max-width: 25px;
+      height: 25px;
+      font-size: 10px;
+      text-align: center;
+      background-color: #EC5252;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+  }
+  .debit{
+    width: 312px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .tpfield {
+    height: 40px;
+    width: 312px;
+    border: 1px solid gray;
+    margin: 5px 0;
+    padding: 5px;
+  }
+
+  /* footer */
+  .web-footer{
+    display: none;
+  }
+  .mobile-footer{
+    display: block;
+    padding: 20px 32px 20px 32px;
+    background-color: #313538;
+    max-width: 1920px;
+    width: 100%;
+    height: 260px;
+  }
+  .footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto 0 auto;
+    align-items: center;
+  }
+
+  /* footer information */
+  .mobile-information{
+    display: flex;
+    max-width: 168px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .information-1, .information-2{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 10px 0;
+  }
+  .information-1 a, .information-2 a{
+    margin: 3px 0
+  }
+
+  .information-1 a{
+    max-width: 130px;
+    width: fit-content;
+  }
+
+  .information-2, .information-2 a{
+    max-width: 130px;
+    width: fit-content;
+  }
+
+  .about-us::after, .service-term::after, 
+  .privite-term::after, .contact-us::after,
+  .fag::after{
+    content: '';
+    display: none;
+    height: 20px;
+    border-right: 1px solid #313538;
+  }
+
+  .social-media-icon{
+    text-decoration: none;
+    margin: 0 10px;
+    max-width: 100px;
+    width: 100%;
+    height: fit-content;
+  }
+  .social-media-icon a{
+    text-decoration: none;
+    margin: 0 4px;
+  }
+  .social-media-icon img{
+    max-width: 20px;
+    max-height: 20px;
+  }
+
+  .copy-right{
+    font-family: PingFangTC;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #828282;
+  }
+}
+
+@media(max-width: 680px){
+  .logo-and-category{
+    padding-left: 3.6rem;
+  }
+}
+
+@media(max-width: 430px){
+  .logo-and-category{
+    padding-left: 4.3rem;
+  }
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/cart/cart-web.css">
+  <link rel="stylesheet" href="../css/cart/cart-mobile.css">
+  <link rel="Shortcut Icon" type="image/x-icon" href="../images/main_icon.ico"/>
+  <title>Stylish</title>
+</head>
+<body>
+  <script src="../js/facebookLogin/sdk.js"></script>
+  <script src="../js/facebookLogin/statusChangeCallback.js"></script>
+  <script src="../js/facebookLogin/testAPI.js"></script>
+  <div class="container">
+    <header>
+      <div class="header-wrapper">
+        <div class="navbar">
+          <div class="logo-and-category">
+            <div class="logo">
+              <a href="index.html">
+                <img src="../images/logo/logo.png" alt=""/>
+              </a>
+            </div>
+            <div class="category">
+              <a href="index.html?category=women" class="women-item">女裝</a>
+              <a href="index.html?category=men" class="man-item">男裝</a>
+              <a href="index.html?category=accessory" class="accessory-item">配件</a>
+            </div>
+          </div>
+          <div class="search-and-cart-member">
+            <div class="search">
+              <form action="index.html" class="search-form">
+                <input class="input" type="text" name="search"/>
+              </form>
+            </div>
+            <div class="cart-and-member">
+              <div class="cart-icon">
+                <a href="cart.html">
+                  <div>
+                    <img src="../images/cart/cart.png" alt="cart"/>
+                    <span class="cart-none">0</span>
+                  </div>
+                </a>
+              </div>
+              <div class="member-icon">
+                <a href="profile.html">
+                  <img src="../images/member/member.png" alt="member"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="mobile-search-icon">
+            <img src="../images/search.png" alt=""/>
+          </a>
+        </div>
+        <div class="hide">
+          <form action="index.html" class="search-form">
+            <input class="input" type="text" name="search"/>
+          </form>
+          <span class="close-search-input"><button>X</button></span>
+        </div>
+      </div>
+    </header>
+    <div class="black-blank">
+      <div class="mobile-category">
+        <a href="index.html?category=women" class="women-item">女裝</a>
+        <a href="index.html?category=men" class="man-item">男裝</a>
+        <a href="index.html?category=accessory" class="accessory-item">配件</a>
+      </div>  
+    </div>
+    <section class="cart content">
+      <div class="product-lists">
+        <div class="cart-title">
+          <p class="cart-title-text">購物車(3)</p>
+          <div class="web-quantity-price-sumup-title">
+            <p class="quantity-title">數量</p>
+            <p class="price-title">單價</p>
+            <p class="sumup-title">小計</p>
+          </div>
+        </div>
+        <div class="product-detail">
+        </div>
+      </div>
+      <div class="delivery-and-checkout-way">
+        <div class="delivery-way">
+          <p class="delivery-text">配送國家</p>
+          <select class="delivery-select">
+            <option selected>台灣</option>
+            <option>日本</option>
+            <option>新加坡</option>
+          </select>
+        </div>
+        <div class="checkout-way">
+          <p class="checkout-text">付款方式</p>
+          <select class="checkout-select">
+            <option>宅配貨到付款</option>
+            <option selected>線上刷卡</option>
+            <option>超商繳費：ATM或結帳付款</option>
+          </select>
+        </div>
+      </div>
+      <div class="reminder-section">
+        <p class="remind-title">※ 提醒您：</p>
+        <p class="remind-p1">● 選擇宅配-請填寫正確收件人資訊，避免包裹配送不達</p>
+        <p class="remind-p2">● 選擇超商-請填寫正確收件人姓名(與證件相符)，避免無法領取</p>
+      </div>
+      <div class="checkout-info">
+        <div class="checkout-info-title">
+          <p class="checkout-info-text">訂購資料</p>
+        </div>
+        <div class="user-info">
+          <div class="name">
+            <p class="name-text">收件人姓名</p>
+            <input class="name-input" type="text"/>
+            <p class="name-remind">務必填寫完整收件人姓名，避免包裹無法順利簽收</p>
+          </div>
+          <div class="email">
+            <p class="email-text">E-mail</p>
+            <input type="email" class="email-input"/>
+          </div>
+          <div class="phone-number">
+            <p class="phone-text">手機</p>
+            <input class="phone-input" type="number"/>
+          </div>
+          <div class="address">
+            <p class="address-text">地址</p>
+            <input class="address-input" type="text"/>
+          </div>
+          <div class="delivery-time">
+            <p class="delivery-time-text">配送時間</p>
+            <div class="delivery-radio-input">
+              <input class="am8-am12" type="radio" name="time" value="08:00-12:00"/> <span class="am8-am12-text">08:00-12:00</span>
+              <input class="pm2-pm6" type="radio" name="time" value="14:00-18:00" checked/> <span class="pm2-pm6-text">14:00-18:00</span>
+              <input class="random-time" type="radio" name="time" value="不指定"/> <span class="random-text">不指定</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-price-comfirm-button">
+        <div class="product-price">
+          <p class="product-price-title">總金額</p>
+          <p class="product-price-currency">NT.</p>
+          <p class="product-price-text">1770</p>
+        </div>
+        <div class="delivery-tip">
+          <p class="delivery-tip-title">運費</p>
+          <p class="delivery-tip-currency">NT.</p>
+          <p class="delivery-tip-text">30</p>
+        </div>
+        <div class="total-price">
+          <p class="total-price-title">應付金額</p>
+          <p class="total-price-currency">NT.</p>
+          <p class="total-price-text">1800</p>
+        </div>
+        <div class="final-checkout">
+          <button class="checkout-button">送出訂單</button>
+        </div>
+        <div class="debit payment-hide">
+          <label>輸入付款資訊</label>
+          <!-- 塞表單的地方 -->
+          <div id="cardview-container">
+            <span>卡號</span>
+            <div class="tpfield" id="card-number"></div>
+            <span>有效期限</span>
+            <div class="tpfield" id="card-expiration-date"></div>
+            <span>安全碼</span>
+            <div class="tpfield" id="card-ccv"></div>
+          </div>
+          <!-- 觸發 GetPrime 的地方 -->
+          <button id="submit-checkout-button">確認付款</button>
+          <button id="after-submit-checkout-button" class="loading-hide">
+            <img src="../images/cart/loading.gif"/>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <footer class="web-footer">
+      <div class="footer-wrapper">
+        <div class="information">
+          <a href="#" class="info about-us">關於 Stylish</a>
+          <a href="#" class="info service-term">服務條款</a>
+          <a href="#" class="info privite-term">隱私政策</a>
+          <a href="#" class="info contact-us">聯絡我們</a>
+          <a href="#" class="faq">FAQ</a>
+        </div>
+        <div class="social-media-icon">
+          <a class="line" href="#">
+            <img src="../images/social/line.png" alt="line icon" />
+          </a>
+          <a class="twitter" href="#">
+            <img src="../images/social/twitter.png" alt="twitter icon" />
+          </a>
+          <a class="facebook" href="#">
+            <img src="../images/social/facebook.png" alt="facebook icon" />
+          </a>
+        </div>
+        <p class="copy-right">© 2018. All rights reserved.</p>
+      </div>
+    </footer>
+    <footer class="mobile-footer">
+        <div class="footer-wrapper">
+          <div class="mobile-information">
+            <div class="information-1">
+              <a href="#" class="info about-us">關於 Stylish</a>
+              <a href="#" class="info service-term">服務條款</a>
+              <a href="#" class="info privite-term">隱私政策</a>
+            </div>
+            <div class="information-2">
+              <a href="#" class="info contact-us">聯絡我們</a>
+              <a href="#" class="faq">FAQ</a>
+            </div>
+          </div>
+          <div class="social-media-icon">
+            <a class="line" href="#">
+              <img src="../images/social/line.png" alt="mobile-line" />
+            </a>
+            <a class="twitter" href="#">
+              <img src="../images/social/twitter.png" alt="mobile-twitter" />
+            </a>
+            <a class="facebook" href="#">
+              <img src="../images/social/facebook.png" alt="mobile-facebook" />
+            </a>
+          </div>
+        </div>
+        <p class="copy-right">© 2018. All rights reserved.</p>
+      </footer>
+    <div class="mobile-cart-and-member">
+      <div class="mobile-cart-icon">
+        <a href="cart.html">
+          <div>
+            <img src="../images/cart/cart-mobile.png" alt="mobile-cart"/>
+            <span class="cart-none">0</span>
+            <p>購物車</p>
+          </div>
+        </a>
+      </div>
+      <div class="divide-line"></div>
+      <div class="mobile-member-icon">
+        <a href="profile.html">
+          <img src="../images/member/member-mobile.png" alt="mobile-member"/>
+          <p>會員</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="../js/rwdEffect/index.js"></script>
+  <script src="../js/api/index.js"></script>
+  <script src="../js/cartPage/getLocalstorage.js"></script>
+  <script src="../js/cartPage/createElement.js"></script>
+  <script src="../js/cartPage/index.js"></script>
+  <script src="https://js.tappaysdk.com/tpdirect/v4"></script>
+  <script>
+    TPDirect.setupSDK(12348, 'app_pa1pQcKoY22IlnSXq5m5WP5jFKzoRG58VEXpT7wU62ud7mMbDOGzCYIlzzLF', 'sandbox');
+  </script>
+  <script src="../js/cartPage/topPay/setupCard.js"></script>
+</body>
+</html>
