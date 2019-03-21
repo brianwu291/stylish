@@ -1,1 +1,1 @@
-The [Url](https://brianwu291.github.io/stylish) Of Stylish.
+The [Url](https://brianwu291.github.io/stylish/pages) Of Stylish.
