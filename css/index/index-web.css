@@ -125,7 +125,7 @@ body{
 .cart-icon, .member-icon{
   max-height: 40px;
 }
-.cart-icon button{
+.cart-icon a{
   text-decoration: none;
   border-style: none;
   background-color: transparent;
