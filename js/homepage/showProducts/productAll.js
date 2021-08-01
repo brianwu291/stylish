@@ -9,8 +9,8 @@
     const allProductReq = new Request(`${apiDomain}/products/all`);
     async function getAllProduct(){
       const product = await fetchData(allProductReq, getInit);
-      if(product.paging){
-        let moreProductReq = new Request(`${apiDomain}/products/all?paging=${product.paging}`);
+      if(product.next_paging){
+        let moreProductReq = new Request(`${apiDomain}/products/all?paging=${product.next_paging}`);
         let isLoaded = true;
         function getMoreAllProduct(){
           let body = document.documentElement; 

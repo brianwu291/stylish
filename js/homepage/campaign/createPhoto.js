@@ -14,7 +14,7 @@ const createPhotos = (data, photoLists) => {
         </p>
       </div>`);
     photoLists.push(
-      `<div class="slide-photo z-${pre}" style="background-image: url(${domain}/${picture})">
+      `<div class="slide-photo z-${pre}" style="background-image: url(${picture})">
         ${storyBlock}
       </div>`
     );
